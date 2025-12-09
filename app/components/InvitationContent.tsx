@@ -39,7 +39,6 @@ export function InvitationContent() {
             <Slideshow
               images={[
                 "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(2).jpeg",
-                "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05.jpeg",
                 "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.04.jpeg",
               ]}
             />
@@ -49,7 +48,7 @@ export function InvitationContent() {
 
       <Countdown target="2026-01-17T18:30:00-05:00" />
 
-      <section className="py-20 px-10">
+      <section className="py-40 px-10">
         <p
           className={`${cormorant.className} text-center text-lg text-neutral-800 mb-12`}
         >
@@ -81,5 +80,3 @@ export function InvitationContent() {
     </>
   );
 }
-
-
