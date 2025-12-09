@@ -39,7 +39,8 @@ export function InvitationContent() {
             <Slideshow
               images={[
                 "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(2).jpeg",
-                "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.04.jpeg",
+                "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(3).jpeg",
+                "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(1).jpeg",
               ]}
             />
           </div>
@@ -64,11 +65,11 @@ export function InvitationContent() {
         </p>
       </section>
 
-      <section className="sticky top-0">
+      <section className="sticky top-0 aspect-3/4">
         <img
-          src="https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05.jpeg"
+          src="https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(3).jpeg"
           alt="Mapa"
-          className="w-full h-auto"
+          className="absolute inset-0 h-full w-full object-cover"
         />
       </section>
 

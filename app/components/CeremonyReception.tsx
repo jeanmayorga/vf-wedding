@@ -42,7 +42,7 @@ export function CeremonyReception() {
             Etapa Sarria Mz 1661 - Villa 14
           </p>
           <Link
-            href="https://maps.app.goo.gl/ro1zF4piiNcbNn8L6"
+            href="https://maps.app.goo.gl/U6oHua7VWfNnVafs7?g_st=ipc"
             target="_blank"
             className="inline-flex items-center justify-center gap-2 rounded-full px-8 py-2 text-xs font-body uppercase tracking-[0.25em] bg-black text-white"
           >
@@ -71,7 +71,7 @@ export function CeremonyReception() {
             Etapa Sarria Mz 1661 - Villa 14
           </p>
           <Link
-            href="https://maps.app.goo.gl/ro1zF4piiNcbNn8L6"
+            href="https://maps.app.goo.gl/U6oHua7VWfNnVafs7?g_st=ipc"
             target="_blank"
             className="inline-flex items-center justify-center gap-2 rounded-full px-8 py-2 text-xs font-body uppercase tracking-[0.25em] bg-black text-white"
           >
