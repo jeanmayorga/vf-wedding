@@ -76,6 +76,11 @@ export default function Intro({ onComplete, onOpen, people }: IntroProps) {
       exit={{ opacity: 0, transition: { duration: 0.8, ease: "easeInOut" } }}
     >
       <div className="group relative outline-none">
+        <h1
+          className={`${parisienne.className} text-[52px] text-neutral-900 leading-tight py-14 px-10 text-center`}
+        >
+          Victor &amp; Fiorella
+        </h1>
         <div
           className="relative mx-auto w-[min(460px,calc(100vw-48px))] aspect-46/36 bg-transparent"
           style={{ perspective: "900px" }}
@@ -118,7 +123,7 @@ export default function Intro({ onComplete, onOpen, people }: IntroProps) {
               </div>
             </div>
 
-            <div className="absolute left-1/2 bottom-32 -translate-x-1/2">
+            <div className="absolute left-1/2 md:bottom-32 bottom-12 -translate-x-1/2">
               <button
                 type="button"
                 onClick={onComplete}
