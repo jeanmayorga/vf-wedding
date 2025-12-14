@@ -1,4 +1,4 @@
-export function ChurchIcon() {
+export function IconChurch() {
   return (
     <svg
       overflow="visible"

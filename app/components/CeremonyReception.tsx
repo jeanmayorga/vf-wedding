@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { ChurchIcon } from "./church-icon";
-import { CupsIcon } from "./cups-icon";
+import { IconCups } from "./icon-cups";
+import { IconChurch } from "./icon-church";
 import { Montserrat, Parisienne } from "next/font/google";
 
 const parisienne = Parisienne({
@@ -24,7 +24,7 @@ export function CeremonyReception() {
         {/* CEREMONIA CIVIL */}
         <div className="text-center text-neutral-900">
           <div className="mx-auto flex h-16 w-16 items-center justify-center text-neutral-800">
-            <ChurchIcon />
+            <IconChurch />
           </div>
           <h3
             className={`${parisienne.className} font-script text-3xl text-neutral-900 mb-4`}
@@ -53,7 +53,7 @@ export function CeremonyReception() {
         {/* BRINDIS & CENA */}
         <div className="text-center text-neutral-900">
           <div className="mx-auto flex h-16 w-16 items-center justify-center text-neutral-800">
-            <CupsIcon />
+            <IconCups />
           </div>
           <h3
             className={`${parisienne.className} font-script text-3xl text-neutral-900 mb-4`}

@@ -27,7 +27,7 @@ export function CeremonyClothing() {
           Semi Formal
         </h4>
         <p className={`${montserrat.className} text-sm text-center mb-4`}>
-          Evita utilizar gorras camiseta de equipos de futbol o jeans rotos.
+          Evita utilizar gorras, camisetas de equipos de futbol o jeans rotos.
         </p>
       </div>
     </section>

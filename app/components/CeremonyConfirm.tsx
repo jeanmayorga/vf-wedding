@@ -1,5 +1,6 @@
 import { Montserrat, Parisienne } from "next/font/google";
 import Link from "next/link";
+import { IconHeart } from "./icon-heart";
 
 const parisienne = Parisienne({
   subsets: ["latin"],
@@ -17,11 +18,14 @@ export function CeremonyConfirm() {
   return (
     <section className="px-10 py-30 relative z-20">
       <div className="mx-auto max-w-lg flex w-full flex-col items-center gap-4">
+        <div className="h-8 w-8 mb-4">
+          <IconHeart />
+        </div>
         <h3 className={`${parisienne.className} font-script text-3xl mb-4`}>
           Confirmación
         </h3>
         <p
-          className={`${montserrat.className} text-sm text-neutral-700 leading-relaxed mb-8`}
+          className={`${montserrat.className} text-sm text-neutral-700 leading-relaxed mb-8 px-8 text-center`}
         >
           Por favor, confirma tu asistencia antes del 10 de enero de 2026.
         </p>
@@ -46,7 +50,7 @@ export function CeremonyConfirm() {
         <p
           className={`${montserrat.className} text-sm text-neutral-700 leading-relaxed`}
         >
-          ¡Esperamos verlos y celebrar juntos!
+          ¡Esperamos verte y celebrar juntos!
         </p>
       </div>
     </section>
