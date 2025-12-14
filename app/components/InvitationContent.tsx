@@ -79,8 +79,14 @@ export function InvitationContent() {
       <CeremonyReception />
       <CeremonyItinerary />
       <CeremonyClothing />
-      <CeremonyConfirm />
-      <CeremonyCover />
+      <div className="grid md:grid-cols-2 z-30 relative bg-[#f3f2ef]">
+        <div className="flex items-center justify-center">
+          <CeremonyConfirm />
+        </div>
+        <div>
+          <CeremonyCover />
+        </div>
+      </div>
     </>
   );
 }

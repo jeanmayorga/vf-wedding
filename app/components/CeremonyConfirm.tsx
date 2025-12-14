@@ -15,11 +15,16 @@ const montserrat = Montserrat({
 
 export function CeremonyConfirm() {
   return (
-    <section className="bg-white px-10 py-20 relative z-20 border-t border-neutral-200">
+    <section className="px-10 py-20 relative z-20">
       <div className="mx-auto max-w-lg flex w-full flex-col items-center gap-4">
-        <h3 className={`${parisienne.className} font-script text-3xl mb-16`}>
+        <h3 className={`${parisienne.className} font-script text-3xl mb-4`}>
           Confirmación
         </h3>
+        <p
+          className={`${montserrat.className} text-sm text-neutral-700 leading-relaxed mb-8`}
+        >
+          Por favor, confirma tu asistencia antes del 10 de enero de 2026.
+        </p>
 
         <div className="mb-12 flex flex-col gap-4">
           <Link
