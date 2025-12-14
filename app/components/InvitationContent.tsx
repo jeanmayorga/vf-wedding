@@ -2,7 +2,10 @@ import { Cormorant_Garamond, Parisienne } from "next/font/google";
 import { Slideshow } from "./Slideshow";
 import { Countdown } from "./Countdown";
 import { CeremonyReception } from "./CeremonyReception";
-import { Itinerary } from "./Itinerary";
+import { CeremonyItinerary } from "./CeremonyItinerary";
+import { CeremonyClothing } from "./CeremonyClothing";
+import { CeremonyCover } from "./CeremonyCover";
+import { CeremonyConfirm } from "./CeremonyConfirm";
 
 const parisienne = Parisienne({
   subsets: ["latin"],
@@ -20,7 +23,7 @@ const cormorant = Cormorant_Garamond({
 export function InvitationContent() {
   return (
     <>
-      <div className="mx-auto w-full px-6 pt-28 pb-4">
+      <section className="mx-auto w-full px-6 pt-28 pb-4">
         <div className="text-center">
           <p className="font-body text-lg tracking-[0.5em] uppercase text-neutral-600">
             17 . 01 . 2026
@@ -31,7 +34,7 @@ export function InvitationContent() {
             Victor &amp; Fiorella
           </h1>
         </div>
-      </div>
+      </section>
 
       <section className="relative mt-20 bg-black">
         <div className="relative mx-auto w-full max-w-[420px] -translate-y-[80px] px-10">
@@ -39,8 +42,8 @@ export function InvitationContent() {
             <Slideshow
               images={[
                 "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(2).jpeg",
-                "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(3).jpeg",
                 "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(1).jpeg",
+                "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.04.jpeg",
               ]}
             />
           </div>
@@ -49,7 +52,7 @@ export function InvitationContent() {
 
       <Countdown target="2026-01-17T18:30:00-05:00" />
 
-      <section className="py-40 px-10">
+      <section className="py-40 px-10 max-w-lg mx-auto">
         <p
           className={`${cormorant.className} text-center text-lg text-neutral-800 mb-12`}
         >
@@ -65,7 +68,7 @@ export function InvitationContent() {
         </p>
       </section>
 
-      <section className="sticky top-0 aspect-3/4">
+      <section className="sticky top-0 aspect-3/4 max-w-lg mx-auto">
         <img
           src="https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(3).jpeg"
           alt="Mapa"
@@ -74,10 +77,10 @@ export function InvitationContent() {
       </section>
 
       <CeremonyReception />
-
-      <section className="bg-black px-10 py-20 relative z-20">
-        <Itinerary />
-      </section>
+      <CeremonyItinerary />
+      <CeremonyClothing />
+      <CeremonyConfirm />
+      <CeremonyCover />
     </>
   );
 }
