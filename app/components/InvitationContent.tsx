@@ -68,16 +68,16 @@ export function InvitationContent() {
         </p>
       </section>
 
-      <section className="relative z-10">
-        <div className="sticky top-0 aspect-3/4 max-w-lg mx-auto">
-          <img
-            src="https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(3).jpeg"
-            alt="Mapa"
-            className="absolute inset-0 h-full w-full object-cover"
-          />
-        </div>
-        <div className="h-[300px]"></div>
-      </section>
+      {/* <section className="relative z-10"> */}
+      <div className="sticky top-0 aspect-3/4 max-w-lg mx-auto">
+        <img
+          src="https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(3).jpeg"
+          alt="Mapa"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+      </div>
+      {/* <div className="h-[300px]"></div>
+      </section> */}
 
       <CeremonyReception />
       <CeremonyItinerary />
