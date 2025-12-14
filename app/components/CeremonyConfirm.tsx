@@ -30,6 +30,12 @@ export function CeremonyConfirm() {
           Por favor, confirma tu asistencia antes del 10 de enero de 2026.
         </p>
 
+        <p
+          className={`${montserrat.className} text-sm text-neutral-700 leading-relaxed mb-8 px-8 text-center`}
+        >
+          Confiamos en tu puntualidad.
+        </p>
+
         <div className="mb-12 flex flex-col gap-4">
           <Link
             href="https://wa.me/+5930994613772?text=Hola Victor, confirmo mi asistencia la boda. Gracias por la invitación. 💪"

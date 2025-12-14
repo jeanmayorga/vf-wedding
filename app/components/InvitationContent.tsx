@@ -64,7 +64,7 @@ export function InvitationContent() {
         <p
           className={`${cormorant.className} text-center text-lg text-neutral-800`}
         >
-          Te esperamos para celebrar juntos el día
+          ¡Nos gustaría contar contigo para hacerlo aún más especial!
         </p>
       </section>
 
