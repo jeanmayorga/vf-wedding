@@ -123,7 +123,7 @@ export default function Intro({ onComplete, onOpen, people }: IntroProps) {
               </div>
             </div>
 
-            <div className="absolute left-1/2 md:bottom-32 bottom-12 -translate-x-1/2 animate-bounce">
+            <div className="absolute left-1/2 md:bottom-32 bottom-12 -translate-x-1/2 animate-bounce [animation-duration:1.7s]">
               <button
                 type="button"
                 onClick={onComplete}
