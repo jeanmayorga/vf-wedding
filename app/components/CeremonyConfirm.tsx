@@ -48,9 +48,9 @@ export function CeremonyConfirm() {
           </Link>
         </div>
         <p
-          className={`${montserrat.className} text-sm text-neutral-700 leading-relaxed`}
+          className={`${montserrat.className} text-sm text-neutral-700 leading-relaxed px-8 text-center`}
         >
-          ¡Esperamos verte y celebrar juntos!
+          ¡Esperamos verte y celebrar juntos nuestro gran día!
         </p>
       </div>
     </section>
