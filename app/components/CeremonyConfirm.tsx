@@ -32,7 +32,7 @@ export function CeremonyConfirm() {
 
         <div className="mb-12 flex flex-col gap-4">
           <Link
-            href="https://wa.me/+5930994613772?text=Hola, confirmo mi asistencia."
+            href="https://wa.me/+5930994613772?text=Hola Victor, confirmo mi asistencia la boda. Gracias por la invitación. 💪"
             target="_blank"
             className="inline-flex items-center justify-center gap-2 rounded-full px-8 py-2 text-xs font-body uppercase tracking-[0.25em] bg-black text-white"
           >
@@ -40,7 +40,7 @@ export function CeremonyConfirm() {
           </Link>
 
           <Link
-            href="https://wa.me/+5930989828143?text=Hola, confirmo mi asistencia."
+            href="https://wa.me/+5930989828143?text=Hola Fio, confirmo mi asistencia la boda. Gracias por la invitación. ✨"
             target="_blank"
             className="inline-flex items-center justify-center gap-2 rounded-full px-8 py-2 text-xs font-body uppercase tracking-[0.25em] bg-black text-white"
           >

@@ -77,7 +77,7 @@ export default function Intro({ onComplete, onOpen, people }: IntroProps) {
     >
       <div className="group relative outline-none">
         <h1
-          className={`${parisienne.className} text-[52px] text-neutral-900 leading-tight py-14 px-10 text-center`}
+          className={`${parisienne.className} text-[52px] text-neutral-900 leading-tight py-14 px-10 text-center mb-20`}
         >
           Victor &amp; Fiorella
         </h1>
@@ -123,7 +123,7 @@ export default function Intro({ onComplete, onOpen, people }: IntroProps) {
               </div>
             </div>
 
-            <div className="absolute left-1/2 md:bottom-32 bottom-12 -translate-x-1/2">
+            <div className="absolute left-1/2 md:bottom-32 bottom-12 -translate-x-1/2 animate-bounce">
               <button
                 type="button"
                 onClick={onComplete}
@@ -134,7 +134,7 @@ export default function Intro({ onComplete, onOpen, people }: IntroProps) {
                   <p
                     className={`${cormorant.className} text-[12px] text-neutral-700`}
                   >
-                    Clic aquí para:
+                    Click aquí para:
                   </p>
                   <p
                     className={`${cormorant.className} text-[12px] tracking-[0.12em] uppercase text-neutral-900`}
@@ -194,7 +194,7 @@ export default function Intro({ onComplete, onOpen, people }: IntroProps) {
               <p
                 className={`${cormorant.className} text-[18px] leading-tight text-white/90 text-center drop-shadow-[0_2px_12px_rgba(0,0,0,0.55)]`}
               >
-                Clic aquí
+                Click aquí
                 <br />
                 para abrir
               </p>

@@ -24,8 +24,26 @@ const parisienne = Parisienne({
 });
 
 export const metadata: Metadata = {
-  title: "Boda Victor & Fiorella",
+  title: "Invitación a la boda de Victor & Fiorella",
   description: "Te invitamos a celebrar nuestra boda.",
+  openGraph: {
+    title: "Invitación a la boda de Victor & Fiorella",
+    description: "Te invitamos a celebrar nuestra boda.",
+    images: [
+      {
+        url: "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(2).jpeg",
+        alt: "Victor & Fiorella",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Invitación a la boda de Victor & Fiorella",
+    description: "Te invitamos a celebrar nuestra boda.",
+    images: [
+      "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(2).jpeg",
+    ],
+  },
 };
 
 export default function RootLayout({

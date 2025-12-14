@@ -124,5 +124,3 @@ function PauseIcon() {
     </svg>
   );
 }
-
-
