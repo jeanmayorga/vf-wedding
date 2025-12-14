@@ -21,7 +21,7 @@ export function IconMonth() {
           ></path>
         </clipPath>
       </defs>
-      <g clip-path="url(#a6ed44a52c)">
+      <g clipPath="url(#a6ed44a52c)">
         <path
           strokeLinejoin="miter"
           fill="rgb(255, 255, 255)"

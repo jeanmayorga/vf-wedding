@@ -18,7 +18,7 @@ const SONG_URL =
   "https://framerusercontent.com/assets/rsva1fCXOgC0NiImrVzTfDT78EQ.mp3";
 
 export default function HomePage() {
-  const [isOpened, setIsOpened] = useState(true);
+  const [isOpened, setIsOpened] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
