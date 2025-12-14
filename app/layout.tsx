@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: "Te invitamos a celebrar nuestra boda.",
     images: [
       {
-        url: "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.04.jpeg?w=1200&h=630&v=1",
+        url: "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(2)%20(copy).jpeg?w=1200&h=630&v=1",
         alt: "Victor & Fiorella",
         width: 1200,
         height: 630,
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     description: "Te invitamos a celebrar nuestra boda.",
     images: [
       {
-        url: "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.04.jpeg?w=1200&h=630&v=1",
+        url: "https://jpmayorga.sirv.com/Images/WhatsApp%20Image%202025-12-08%20at%2012.31.05%20(2)%20(copy).jpeg?w=1200&h=630&v=1",
         alt: "Victor & Fiorella",
         width: 1200,
         height: 630,
