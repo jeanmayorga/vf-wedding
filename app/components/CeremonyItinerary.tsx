@@ -26,7 +26,7 @@ const montserrat = Montserrat({
 
 export function CeremonyItinerary() {
   return (
-    <section className="bg-black px-10 py-20 relative z-20">
+    <section className="bg-black px-10 py-30 relative z-30">
       <div className="mx-auto max-w-lg flex w-full flex-col items-center text-white">
         <div className="h-16 w-16 mb-4">
           <IconMonth />

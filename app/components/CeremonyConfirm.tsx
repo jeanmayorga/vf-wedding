@@ -15,7 +15,7 @@ const montserrat = Montserrat({
 
 export function CeremonyConfirm() {
   return (
-    <section className="px-10 py-20 relative z-20">
+    <section className="px-10 py-30 relative z-20">
       <div className="mx-auto max-w-lg flex w-full flex-col items-center gap-4">
         <h3 className={`${parisienne.className} font-script text-3xl mb-4`}>
           Confirmación

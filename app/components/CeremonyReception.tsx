@@ -19,7 +19,7 @@ const montserrat = Montserrat({
 
 export function CeremonyReception() {
   return (
-    <section className="bg-[#f3f2ef] px-8 py-20 relative z-20">
+    <section className="bg-[#f3f2ef] px-10 py-30 relative z-30">
       <div className="mx-auto flex w-full max-w-lg flex-col gap-16">
         {/* CEREMONIA CIVIL */}
         <div className="text-center text-neutral-900">
