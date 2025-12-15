@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import { useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useSearchParams } from "next/navigation";
 import { InvitationContent } from "./InvitationContent";
@@ -17,6 +18,11 @@ export function HomeClient() {
 
   const peopleParam = (searchParams.get("people") ?? "").trim();
   const people = peopleParam.length > 0 ? peopleParam : "Invitado";
+
+  useEffect(() => {
+    // Log cada vez que el nombre (people) cambie y el UI se renderice con ese valor.
+    console.info("[invite] people:", people);
+  }, [people]);
 
   const ensureAudio = () => {
     if (!audioRef.current) {
